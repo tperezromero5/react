@@ -9,6 +9,5 @@ function App(){
         <div className="center">
         <ItemListContainer greeting={"bienvenido"}/>
         </div>
-
     </div>}
     export default App;

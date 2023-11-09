@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react/build/static/css/main.53bcab0a.css",
+    "main.js": "/react/build/static/js/main.8f3973d6.js",
+    "static/media/cart.svg": "/react/build/static/media/cart.f472d14e13e36a21c51fa54ee46334d3.svg",
+    "index.html": "/react/build/index.html",
+    "main.53bcab0a.css.map": "/react/build/static/css/main.53bcab0a.css.map",
+    "main.8f3973d6.js.map": "/react/build/static/js/main.8f3973d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53bcab0a.css",
+    "static/js/main.8f3973d6.js"
+  ]
+}
