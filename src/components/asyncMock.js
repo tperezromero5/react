@@ -1,10 +1,13 @@
+import remeraBlanca from "../assets/images/remeraBlanca.jpg"
+import remeraNegra from "../assets/images/remeraNegra.jpg"
+import botellaAgua from "../assets/images/botellaAgua.jpg"
 const products = [
     {
         id: '1',
         name: 'remera clara',
         price: 5600,
         category:'indumentaria',
-        img:'',
+        img:'remeraBlanca',
         stock:'10',
         description:'descripcion clara',
     },
@@ -13,7 +16,7 @@ const products = [
         name: 'remera oscura',
         price: 5600,
         category:'indumentaria',
-        img:'',
+        img:'remeraNegra',
         stock:'15',
         description:'descripcion oscura',
     },
@@ -22,7 +25,7 @@ const products = [
         name: 'botella',
         price: 5600,
         category:'accesorios',
-        img:'',
+        img:'botellaAgua',
         stock:'5',
         description:'descripcion botella',
     }

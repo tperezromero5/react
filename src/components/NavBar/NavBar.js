@@ -3,10 +3,10 @@ import { NavLink, Link } from "react-router-dom";
 const NavBar = () => {
 return (
     <nav>
-        <link to='/'>
+        <Link to='/'>
             <h3>Rehavita</h3>
             <h4>Salud</h4>
-        </link>
+        </Link>
         <div>
             <NavLink to={`/category/indumentaria`} className={({ isActive})=> isActive ?'ActiveOption':'Option'}>Indumentaria</NavLink>
             <NavLink to={`/category/accesorios`} className={({ isActive})=> isActive ?'ActiveOption':'Option'}>Accesorios</NavLink>
