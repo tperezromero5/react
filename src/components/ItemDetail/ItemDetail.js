@@ -1,15 +1,15 @@
 import ItemCount from "../itemCount/itemCount"
-
+import "./itemDetail.css"
 const ItemDetail = ({ id, name, img, category, description, price, stock}) => {
     return(
-        <article>
+        <article className="articuloDetalle">
             <header>
                 <h2>
                     {name}
                 </h2>
             </header>
-            <picture>
-                <img src={img} alt={name} />
+            <picture className="pictureDetalle">
+                <img className="imagenRemeraDetalle" src={img} alt={name}/>
             </picture>
             <section>
                 <p>

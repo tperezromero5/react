@@ -1,0 +1,19 @@
+
+.logo{
+    height: 2rem;
+    width: 2rem;
+}
+.navBar{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(14, 233, 14);
+}
+.navLinks{
+    color: black;
+}
+.ActiveOption{
+    color: black;
+}
