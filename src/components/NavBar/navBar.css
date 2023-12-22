@@ -1,19 +1,33 @@
-
-.logo{
-    height: 2rem;
-    width: 2rem;
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
 }
 .navBar{
-    color: black;
-    display: flex;
-    align-items: center;
+    display:flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: rgb(14, 233, 14);
+    height: 15vh;
+    background-color: rgb(2, 195, 2);
+}
+.logo{
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 4vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navLinks a{
+    color: #fff;
 }
 .navLinks{
-    color: black;
-}
-.ActiveOption{
-    color: black;
+    display: flex;
+    justify-content: space-between;
 }

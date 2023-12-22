@@ -1,11 +1,38 @@
+.headerDetalle{
+    text-align: center;
+    height: 10vh;
+}
 .articuloDetalle{
-    height: 3rem;
-    width: 3rem;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.parrafosDetalle{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding-top: 10px;
+}
+.contadorDetalle{
+    justify-content: center;
+    align-items: center;
+    background-color:red ;
+    height: 10vh;
+
 }
 .pictureDetalle{
-    height: 1.5rem;
-    width: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 25rem;
 }
 .imagenRemeraDetalle{
-    size: 25px;
+    height: 25rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
 }
