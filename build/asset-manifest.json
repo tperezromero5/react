@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/react/build/static/css/main.ef468a98.css",
-    "main.js": "/react/build/static/js/main.669332f8.js",
-    "static/media/remeraBlanca.jpg": "/react/build/static/media/remeraBlanca.73ae990141bb9bb5a3e9.jpg",
-    "static/media/remeraNegra.jpg": "/react/build/static/media/remeraNegra.75ce162ed0bd0ee3c145.jpg",
-    "static/media/botellaAgua.jpg": "/react/build/static/media/botellaAgua.b6b19902a93fecc8a2c5.jpg",
-    "static/media/cart.svg": "/react/build/static/media/cart.f472d14e13e36a21c51fa54ee46334d3.svg",
-    "index.html": "/react/build/index.html",
-    "main.ef468a98.css.map": "/react/build/static/css/main.ef468a98.css.map",
-    "main.669332f8.js.map": "/react/build/static/js/main.669332f8.js.map"
+    "main.css": "/static/css/main.34feb631.css",
+    "main.js": "/static/js/main.49fe944d.js",
+    "static/media/cart.svg": "/static/media/cart.f472d14e13e36a21c51fa54ee46334d3.svg",
+    "index.html": "/index.html",
+    "main.34feb631.css.map": "/static/css/main.34feb631.css.map",
+    "main.49fe944d.js.map": "/static/js/main.49fe944d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef468a98.css",
-    "static/js/main.669332f8.js"
+    "static/css/main.34feb631.css",
+    "static/js/main.49fe944d.js"
   ]
 }
