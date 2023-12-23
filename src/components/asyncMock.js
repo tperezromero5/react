@@ -9,7 +9,7 @@ const products = [
         category:'indumentaria',
         img: remeraBlanca,
         stock:'10',
-        description:'descripcion clara',
+        description:'descripción clara',
     },
     {
         id: '2',

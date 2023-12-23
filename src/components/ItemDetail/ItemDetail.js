@@ -1,46 +1,36 @@
-import { useState } from "react"
-import ItemCount from "../itemCount/itemCount"
-import "./itemDetail.css"
-import { Link } from "react-router-dom"
-const ItemDetail = ({ id, name, img, category, description, price, stock}) => {
+import { useState, useContext} from "react";
+import ItemCount from "../itemCount/itemCount";
+import { Link } from "react-router-dom";
+import { CartContext } from "../cartContext/cartContext";
+
+const ItemDetail= ({id, name, img, description, price, category, stock}) => {
     const [quantityAdded, setQuantityAdded] = useState (0)
-
-    const handleOnAdd = (quantity) => {
+    const {addItem} = useContext (CartContext )
+    const handleOnAdd = (quantity) =>{
         setQuantityAdded(quantity)
+        const item ={
+            id,name,price
+        }
+        addItem(item, quantity)
     }
-
     return(
-        <article className="articuloDetalle">
-            <header className="headerDetalle">
-                <h2>
-                    {name}
-                </h2>
-            </header>
-            <picture className="pictureDetalle">
-                <img className="imagenRemeraDetalle" src={img} alt={name}/>
-            </picture>
-            <section className="parrafosDetalle">
-                <p>
-                    Categoria: {category}
-                </p>
-                <p>
-                    Descripcion:  {description}
-                </p>
-                <p>
-                    Precio: ${price}
-                </p>
-            </section>
-            <footer className="contadorDetalle">
-                {
-                    quantityAdded >0 ? (
-                        <Link to='/cart'>terminar compra</Link>
-                    ) :(
-                        <ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>
+        <div className="divContenedor">
+            <div className="img">
+            <img src={img} alt={name}/>
+            </div>
+            <div className="contenido">
+            <p><strong>precio: </strong>${price}</p>
+            <p><strong>categoria: </strong>{category}</p>
+            <p className="descripcionProd"><strong>descripcion: </strong>{description}</p>
+            {
+                quantityAdded > 0 ?(
+                    <Link to='/Cart' className= 'terminar' > terminar compra</Link>
+                    ) : (
+                        <ItemCount initial={1} stock={10} onAdd={handleOnAdd}/>
                     )
-                    
-                }
-            </footer>
-        </article>
+            }
+            </div>
+        </div>
     )
 }
-export default ItemDetail
+export default ItemDetail;
